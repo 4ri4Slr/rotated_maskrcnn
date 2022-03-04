@@ -1,5 +1,9 @@
 // modify from
 // https://github.com/chengdazhi/Deformable-Convolution-V2-PyTorch/blob/mmdetection/mmdet/ops/dcn/src/modulated_dcn_cuda.c
+#ifndef AT_CHECK
+#define AT_CHECK TORCH_CHECK 
+#endif
+
 
 // based on
 // author: Charles Shang
